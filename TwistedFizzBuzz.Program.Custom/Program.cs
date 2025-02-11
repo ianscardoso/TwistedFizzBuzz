@@ -15,8 +15,8 @@ namespace TwistedFizzBuzz.Program.Custom
                 new() { Number = 27, Word = "Bar" }
             };
 
-            //var result = Library.TwistedFizzBuzz.CustomFizzBuzz(initialValue, finalValue, alternativeValues);
-            var result = Library.TwistedFizzBuzz.CustomFizzBuzz(initialValue, finalValue, "https://pie-healthy-swift.glitch.me/word").Result;
+            var result = Library.TwistedFizzBuzz.CustomFizzBuzz(initialValue, finalValue, alternativeValues);
+            //var result = Library.TwistedFizzBuzz.CustomFizzBuzz(initialValue, finalValue, "https://pie-healthy-swift.glitch.me/word").Result;
 
             foreach (var item in result)
             {
